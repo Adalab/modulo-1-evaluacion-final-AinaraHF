@@ -9,6 +9,9 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 5px;
+    @media (width>768px){
+      
+    }
 }
 .links{
   text-align: center;
