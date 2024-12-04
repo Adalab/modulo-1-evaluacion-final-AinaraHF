@@ -3,7 +3,7 @@
     line-height: 1.5;
     font-family: $font-title;
     &_title{
-        color: #6c933e;
+        color: $color-main;
         font-size: 14px;
             &-2{
             font-weight: bold;
@@ -20,9 +20,9 @@
 }
 .buy{
     background-color: white;
-    color: #6c933e;
+    color: $color-main;
     font-weight: bold;
-    border: 3px solid #6c933e;
+    border: 3px solid $color-main;
     border-radius: 30px;
     font-family: $font-text;
     font-size: 20px;

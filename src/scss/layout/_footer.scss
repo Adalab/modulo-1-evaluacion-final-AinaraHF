@@ -1,6 +1,6 @@
 .footer{
   background-color: #4a4a4a;
-  color: white;
+  color: $color-secondary;
   font-family: $font-text;
   padding: 20px;
   display: flex;
@@ -26,7 +26,7 @@
       text-align: left;
     }
   & a{
-    color: white;
+    color: $color-secondary;
     text-decoration: none;
   }
 }
@@ -38,7 +38,7 @@
     text-align: left;
   }
   & a{
-    color: white;
+    color: $color-secondary;
     text-decoration: none;
   }
 }
@@ -54,7 +54,7 @@
   }
 }
 .arrowup{
-  background-color: white;
+  background-color: $color-secondary;
   padding: 10px;
   border-radius: 50%;  
   transform: translateY(-40px);

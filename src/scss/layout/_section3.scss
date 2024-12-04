@@ -50,9 +50,9 @@
     }
 }
 .begin{
-    background-color: #6c933e;
-    color: white;
-    border: 1px solid #6c933e;
+    background-color: $color-main;
+    color: $color-secondary;
+    border: 1px solid $color-main;
     font-family: $font-text;
     font-size: 20px;
     border-radius: 30px;

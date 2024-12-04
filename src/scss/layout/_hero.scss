@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    color: white;
+    color: $color-secondary;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -41,7 +41,7 @@
         
 }
 .arrowdown{
-    background-color: white;
+    background-color: $color-secondary;
     width: 18px;
     padding: 12px;
     border-radius: 50%;
