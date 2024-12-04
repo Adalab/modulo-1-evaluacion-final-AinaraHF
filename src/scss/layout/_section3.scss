@@ -8,6 +8,7 @@
     align-items: center;
     &_title{
         color: #626262;
+        font-size: 12px;
         font-family: $font-title;
         font-weight: bold;
         @media (width>768px){
@@ -15,7 +16,7 @@
         }
     }
     &_title2{
-        font-size: 24px;
+        font-size: 20px;
         font-family: $font-title;
         font-weight: bold;
         padding-top: 5px;
@@ -43,7 +44,7 @@
     &_text{
         font-family: $font-title;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
         padding-bottom: 20px;
         padding-top: 5px;

@@ -9,7 +9,7 @@ Hay 3 tipos de ficheros y carpetas:
 - Los ficheros que están sueltos en la raíz del repositorio, como vite.config.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
 - La carpeta `src/`: son los ficheros de nuestra página web, como HTML y CSS.
 - La carpeta `public/`, que tiene fichero estáticos, en este caso imágenes.
-- Y la carpeta `docs/`, que es generada automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/` y `public/`, los procesa y los genera dentro de `public/` y `docs/`.
+- Y la carpeta `docs/`, que es generada automáticamente cuando arrancamos el proyecto. 
 
 ## Guía de inicio rápido
 
@@ -24,7 +24,7 @@ npm install
 
 ### Pasos para arrancar el proyecto:
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto ejecutando el comando:
+Una vez hemos instalado las dependencias, vamos a arrancar el proyecto ejecutando uno de los siguientes comandos:
 
 ```bash
 npm run dev

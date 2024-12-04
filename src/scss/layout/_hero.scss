@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
     gap: 30px;
     padding: 50px;
@@ -19,24 +19,25 @@
             font-family: $font-title;
             font-size: 30px;
             font-weight: bold;            
-            padding-top: 350px;
             line-height: 1.75;
             text-align: center;
+            & span{
+                display: block;
+            }
                 @media (width>768px){
                     font-size: 75px;
                     line-height: 1.25;
-            }
+                 }
         }
         &_subtitle{
             font-family: $font-text;
-            font-size: 20px;
             text-align: center;
+            & span{
+                display: block;
+            }
             @media (width>768px){
                 font-size: 24px;
-                padding-left: 200px;
-                padding-right: 200px;
-                padding-bottom: 20px;
-            }
+               }
         }
         
 }
