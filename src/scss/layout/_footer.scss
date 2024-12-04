@@ -47,9 +47,9 @@
   text-align: center;
   padding-bottom: 10px;
   line-height: 2;
-  @media (width>768px){
-    order: -1;
-    text-align: left;
+    @media (width>768px){
+      order: -1;
+      text-align: left;
 
   }
 }
