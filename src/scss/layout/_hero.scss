@@ -2,6 +2,7 @@
     background-image: url(/images/cover.jpeg);
     background-position: right 18% bottom 10%;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     color: white;
     display: flex;
@@ -12,7 +13,7 @@
     gap: 30px;
     padding: 50px;
         @media (width>768px){
-           gap: 10px;
+            gap: 10px;
         }
         &_title{
             font-size: 30px;
@@ -21,10 +22,9 @@
             padding-top: 350px;
             line-height: 1.75;
             text-align: center;
-            @media (width>768px){
-                font-size: 75px;
-                line-height: 1.25;
-
+                @media (width>768px){
+                    font-size: 75px;
+                    line-height: 1.25;
             }
         }
         &_subtitle{
