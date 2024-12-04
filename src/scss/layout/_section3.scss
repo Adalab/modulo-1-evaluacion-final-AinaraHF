@@ -11,9 +11,6 @@
         font-size: 12px;
         font-family: $font-title;
         font-weight: bold;
-        @media (width>768px){
-            font-size: 12px;
-        }
     }
     &_title2{
         font-size: 20px;
@@ -21,7 +18,7 @@
         font-weight: bold;
         padding-top: 5px;
         @media (width>768px){
-            font-size: 30px;
+            font-size: 28px;
         }
     }
 }
@@ -36,8 +33,8 @@
         gap: 120px;
     }
     &_img{
-        width: 150px;
-        height: 150px;
+        width: 122px;
+        height: 133px;
         border-radius: 50%;
         box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
     }
@@ -48,6 +45,9 @@
         text-align: center;
         padding-bottom: 20px;
         padding-top: 5px;
+            @media (width>768px){
+                font-size: 18px;
+        }
     }
 }
 .begin{
